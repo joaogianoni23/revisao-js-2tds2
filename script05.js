@@ -13,5 +13,8 @@ pizza.push(vegetais[4]);
 
 console.log("Pizza montada:");
 for (let i = 0; i < pizza.length; i++) {
+    if (i==0 && pizza[i] == massas[1]) {
+        console.log("Hummmm... ta fit!");
+    }
     console.log(pizza[i])
 }
